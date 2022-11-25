@@ -26,7 +26,7 @@ function Home() {
                 backgroundImage: `url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lexus-lf-z-electrified-1622040420.jpg")`,
               }}
             ></div>
-            <div class="container main-page-container ">
+            <div class="container main-page-container " style={{marginTop:"70px"}}>
               <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
               <p class="fs-3">
                 Find out what people say about your future car.
@@ -43,7 +43,7 @@ function Home() {
                 backgroundImage: `url("https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/17/145313.jpg")`,
               }}
             ></div>
-            <div class="container main-page-container">
+            <div class="container main-page-container "  style={{marginTop:"70px"}}>
               <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
               <p class="fs-3">
                 Find out what people say about your future car.
@@ -60,7 +60,7 @@ function Home() {
                 backgroundImage: `url("https://www.pv-magazine.com/wp-content/uploads/2022/03/646106-1200x514.jpg")`,
               }}
             ></div>
-            <div class="container main-page-container">
+            <div class="container main-page-container" style={{marginTop:"70px"}}>
               <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
               <p class="fs-3">
                 Find out what people say about your future car.
