@@ -23,7 +23,12 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="https://www.caranddriver.com/news/"
+                  target="_blamk"
+                >
                   News
                 </a>
               </li>
@@ -33,12 +38,12 @@ function Header() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <a class="nav-link active" href="/trucks">
                   Trucks
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/">
+                <a class="nav-link active" href="/luxury">
                   Luxury
                 </a>
               </li>
@@ -67,14 +72,6 @@ function Header() {
                   <li>
                     <a class="dropdown-item" href="/luxuries/new">
                       Add Luxury
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/news/new">
-                      Add Article
                     </a>
                   </li>
                 </ul>
