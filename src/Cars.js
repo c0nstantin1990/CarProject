@@ -27,25 +27,13 @@ function Cars() {
                     {car.year} {car.make} {car.model} {car.msrp}
                   </h5>
                   <div class="cardButtons">
-                    <a
-                      href="https://picsum.photos/id/15/1500"
-                      target="_blank"
-                      class="btn btn-primary"
-                    >
+                    <a href="/" target="_blank" class="btn btn-primary">
                       Description
                     </a>
-                    <a
-                      href="https://picsum.photos/id/15/1500"
-                      target="_blank"
-                      class="btn btn-warning  "
-                    >
+                    <a href="/" target="_blank" class="btn btn-warning  ">
                       Edit
                     </a>
-                    <a
-                      href="https://picsum.photos/id/15/1500"
-                      target="_blank"
-                      class="btn btn-danger"
-                    >
+                    <a href="/" target="_blank" class="btn btn-danger">
                       Delete
                     </a>
                   </div>

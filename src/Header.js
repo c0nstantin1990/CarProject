@@ -1,5 +1,5 @@
 import React from "react";
-import headerLogo from "./CarNet.png";
+import headerLogo from "./Car4You.png";
 
 function Header() {
   return (
@@ -7,7 +7,7 @@ function Header() {
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand p-0" href="/">
-            <img src={headerLogo} alt="..." width="70" />
+            <img src={headerLogo} alt="..." width="100" />
           </a>
           <button
             class="navbar-toggler"
@@ -23,16 +23,6 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="https://www.caranddriver.com/news/"
-                  target="_blamk"
-                >
-                  News
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link active" href="/cars">
                   Cars
                 </a>
@@ -40,11 +30,6 @@ function Header() {
               <li class="nav-item">
                 <a class="nav-link active" href="/trucks">
                   Trucks
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="/luxury">
-                  Luxury
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -67,11 +52,6 @@ function Header() {
                   <li>
                     <a class="dropdown-item" href="/trucks/new">
                       Add Truck
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="/luxuries/new">
-                      Add Luxury
                     </a>
                   </li>
                 </ul>
