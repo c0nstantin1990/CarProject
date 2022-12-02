@@ -23,7 +23,7 @@ function Home() {
             <div
               class="overlay-image"
               style={{
-                backgroundImage: `url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lexus-lf-z-electrified-1622040420.jpg")`,
+                backgroundImage: `url("https://images7.alphacoders.com/460/460370.jpg")`,
               }}
             ></div>
             <div
@@ -31,8 +31,26 @@ function Home() {
               style={{ marginTop: "70px" }}
             >
               <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
+              <p class="fs-3">Find the car of your dreams.</p>
+              <a href="/cars" class="btn btn-outline-light">
+                Click here
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item main-carousel-item">
+            <div
+              class="overlay-image"
+              style={{
+                backgroundImage: `url("https://media.wired.com/photos/5dd828ba9ac14a0008116983/master/pass/Transpo_TeslaStoryOne_Cybertruck-5.jpg")`,
+              }}
+            ></div>
+            <div
+              class="container main-page-container "
+              style={{ marginTop: "70px" }}
+            >
+              <h1 class="fw-bold">LOOKING FOR A TRUCK?</h1>
               <p class="fs-3">
-                Find out what people say about your future car.
+                Find the truck that can do all your dirty work.
               </p>
               <a href="/cars" class="btn btn-outline-light">
                 Click here
@@ -43,37 +61,15 @@ function Home() {
             <div
               class="overlay-image"
               style={{
-                backgroundImage: `url("https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/17/145313.jpg")`,
-              }}
-            ></div>
-            <div
-              class="container main-page-container "
-              style={{ marginTop: "70px" }}
-            >
-              <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
-              <p class="fs-3">
-                Find out what people say about your future car.
-              </p>
-              <a href="/cars" class="btn btn-outline-light">
-                Click here
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item main-carousel-item">
-            <div
-              class="overlay-image"
-              style={{
-                backgroundImage: `url("https://www.pv-magazine.com/wp-content/uploads/2022/03/646106-1200x514.jpg")`,
+                backgroundImage: `url("https://images.hdqwalls.com/download/lamborghini-urus-4k-qk-1920x1080.jpg")`,
               }}
             ></div>
             <div
               class="container main-page-container"
               style={{ marginTop: "70px" }}
             >
-              <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
-              <p class="fs-3">
-                Find out what people say about your future car.
-              </p>
+              <h1 class="fw-bold">LOOKING FOR A SUV?</h1>
+              <p class="fs-3">Find the Suv that can fit everyone.</p>
               <a href="/cars" class="btn btn-outline-light">
                 Click here
               </a>

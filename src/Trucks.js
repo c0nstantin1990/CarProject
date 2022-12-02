@@ -27,10 +27,7 @@ function Trucks() {
                     {truck.year} {truck.make} {truck.model} {truck.msrp}
                   </h5>
                   <div class="cardButtons">
-                    <a href="/" target="_blank" class="btn btn-primary">
-                      Description
-                    </a>
-                    <a href="/" target="_blank" class="btn btn-warning  ">
+                    <a href="/" target="_blank" class="btn btn-primary  ">
                       Edit
                     </a>
                     <a href="/" target="_blank" class="btn btn-danger">

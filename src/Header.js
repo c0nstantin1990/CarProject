@@ -32,6 +32,11 @@ function Header() {
                   Trucks
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/suvs">
+                  Suvs
+                </a>
+              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -52,6 +57,11 @@ function Header() {
                   <li>
                     <a class="dropdown-item" href="/trucks/new">
                       Add Truck
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/suvs/new">
+                      Add Suv
                     </a>
                   </li>
                 </ul>
