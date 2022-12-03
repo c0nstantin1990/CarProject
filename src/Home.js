@@ -23,11 +23,12 @@ function Home() {
             <div
               class="overlay-image"
               style={{
-                backgroundImage: `url("https://images7.alphacoders.com/460/460370.jpg")`,
+                backgroundImage:
+                  "url('https://images7.alphacoders.com/460/460370.jpg')",
               }}
             ></div>
             <div
-              class="container main-page-container "
+              class=" container main-page-container "
               style={{ marginTop: "70px" }}
             >
               <h1 class="fw-bold">LOOKING FOR A CAR?</h1>
@@ -52,7 +53,7 @@ function Home() {
               <p class="fs-3">
                 Find the truck that can do all your dirty work.
               </p>
-              <a href="/cars" class="btn btn-outline-light">
+              <a href="/trucks" class="btn btn-outline-light">
                 Click here
               </a>
             </div>
@@ -70,7 +71,7 @@ function Home() {
             >
               <h1 class="fw-bold">LOOKING FOR A SUV?</h1>
               <p class="fs-3">Find the Suv that can fit everyone.</p>
-              <a href="/cars" class="btn btn-outline-light">
+              <a href="/suvs" class="btn btn-outline-light">
                 Click here
               </a>
             </div>

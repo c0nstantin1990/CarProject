@@ -10,6 +10,13 @@
 .card:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.backroundpage {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
 .card img {
   border: 1px solid #dedfe0;
   border-radius: 5px;
@@ -25,6 +32,7 @@
   align-items: flex-end;
 }
 .overlay-image {
+  pointer-events: none; 
   position: absolute;
   bottom: 0;
   left: 0px;
